@@ -1,0 +1,13 @@
+---
+title: new blog
+author: ''
+date: '2022-06-25'
+slug: new-blog
+categories: []
+tags: []
+---
+
+```{r}
+c(1:10)
+```
+
