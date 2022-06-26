@@ -1,22 +1,36 @@
 ---
-title: new test 2
+title: Build a website using R Markdown, github, and Netlify
 author: ''
 date: '2022-06-25'
-slug: new-test-2
+slug: build a website
 categories: []
 tags: []
 ---
 
-```{r}
-library(ggplot2)
-library(dplyr)
+ref: https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/
 
-smaller <- diamonds %>% 
-  filter(carat <= 2.5)
-```
+# Prerequisites
 
-```{r}
-smaller %>% 
-  ggplot(aes(carat)) + 
-  geom_freqpoly(binwidth = 0.01)
-```
+-   Install a recent version of R and RStudio
+-   Create a GitHub account
+-   Connect RStudio to GitHub (preferably with HTTPS)
+-   Sign up with Netlify using your GitHub account
+
+## Resources for getting started with GitHub 
+
+-   [Happy Git and GitHub for the useR](https://happygitwithr.com/github-acct.html)
+-   [The Turing Way Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/github-novice.html#)
+-   [Start Your Lab guide](https://www.startyourlab.com/docs/github-accounts/)
+
+# Step 1: Create GitHub repository
+
+# Step 2: Create project with Version Control in RStudio
+
+# Step 3: Create website with `blogdown`
+
+# Step 4: Push to GitHub
+
+# Step 5: Deploy site with Netlify
+
+
+

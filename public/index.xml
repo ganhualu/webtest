@@ -13,7 +13,16 @@
       <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://thisisatestgl.netlify.app/2022/06/25/new-blog/</guid>
-      <description>c(1:10)## [1] 1 2 3 4 5 6 7 8 9 10</description>
+      <description>c(1:10)## [1] 1 2 3 4 5 6 7 8 9 10library(ggplot2)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionsmaller &amp;lt;- diamonds %&amp;gt;% filter(carat &amp;lt;= 2.5)smaller %&amp;gt;% ggplot(aes(carat)) + geom_freqpoly(binwidth = 0.01)</description>
+    </item>
+    
+    <item>
+      <title>new test 2</title>
+      <link>https://thisisatestgl.netlify.app/2022/06/25/new-test-2/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://thisisatestgl.netlify.app/2022/06/25/new-test-2/</guid>
+      <description>library(ggplot2)library(dplyr)## ## Attaching package: &amp;#39;dplyr&amp;#39;## The following objects are masked from &amp;#39;package:stats&amp;#39;:## ## filter, lag## The following objects are masked from &amp;#39;package:base&amp;#39;:## ## intersect, setdiff, setequal, unionsmaller &amp;lt;- diamonds %&amp;gt;% filter(carat &amp;lt;= 2.5)smaller %&amp;gt;% ggplot(aes(carat)) + geom_freqpoly(binwidth = 0.01)</description>
     </item>
     
     <item>
