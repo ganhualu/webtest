@@ -1,0 +1,22 @@
+---
+title: new test 2
+author: ''
+date: '2022-06-25'
+slug: new-test-2
+categories: []
+tags: []
+---
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+smaller <- diamonds %>% 
+  filter(carat <= 2.5)
+```
+
+```{r}
+smaller %>% 
+  ggplot(aes(carat)) + 
+  geom_freqpoly(binwidth = 0.01)
+```
